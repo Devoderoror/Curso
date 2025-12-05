@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1A365D;
+  --color-success: #2F855A;
+  --color-warning: #DD6B20;
+  --color-neutral: #F7FAFC;
+  --color-bg: #FFFFFF;
+  --color-text: #2D3748;
+  --color-card-bg: #FFFFFF;
+  --color-border: #E2E8F0;
+  --color-secondary-bg: #EDF2F7;
+}
+
+[data-theme="dark"] {
+  --color-primary: #4A90E2;
+  --color-success: #48BB78;
+  --color-warning: #F6AD55;
+  --color-neutral: #1A202C;
+  --color-bg: #0F172A;
+  --color-text: #E2E8F0;
+  --color-card-bg: #1E293B;
+  --color-border: #334155;
+  --color-secondary-bg: #1E293B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.875rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 0.625rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
