@@ -19,7 +19,7 @@ O aplicativo foi projetado para oferecer uma experiência de aprendizado abrange
 O projeto é construído usando um conjunto moderno e robusto de ferramentas e bibliotecas:
 
 | Categoria | Tecnologia | Propósito | Referência |
-| :--- | :--- | :--- | :--- |
+|-----------|------------|-----------|------------|
 | **Núcleo** | React | Biblioteca JavaScript de frontend para construção de interfaces de usuário. | [2] |
 | **Linguagem** | TypeScript | Superconjunto de JavaScript que adiciona tipagem estática. | [3] |
 | **Ferramenta de Build** | Vite | Ferramenta de frontend de próxima geração para desenvolvimento rápido. | [4] |
@@ -57,7 +57,7 @@ Você precisará do seguinte software instalado em sua máquina:
 O projeto inclui dois scripts principais para desenvolvimento e produção:
 
 | Script | Comando | Descrição |
-| :--- | :--- | :--- |
+|--------|---------|-----------|
 | **Desenvolvimento** | `npm run dev` | Inicia o servidor de desenvolvimento Vite. O aplicativo estará disponível em `http://localhost:5173` (ou outra porta se a 5173 estiver em uso). |
 | **Build** | `npm run build` | Compila o aplicativo para produção no diretório `dist`. |
 
@@ -81,7 +81,7 @@ Os dados do usuário são gerenciados por meio do utilitário `storage.ts` [14] 
 O sistema de nivelamento é baseado em pontos acumulados, com a seguinte estrutura:
 
 | Ação | Pontos Concedidos | Notas | Referência |
-| :--- | :--- | :--- | :--- |
+|------|-------------------|-------|------------|
 | Concluir um Módulo | 100 | Concedido apenas na primeira conclusão. | [14] |
 | Questionário Perfeito (100%) | 50 | Pontos bônus por uma pontuação perfeita. | [14] |
 | Sucesso na Primeira Tentativa | 25 | Pontos bônus por passar no questionário na primeira tentativa. | [14] |
@@ -118,24 +118,40 @@ Este projeto utiliza componentes e ativos de fontes externas:
 *   **Componentes UI:** Componentes do **shadcn/ui** estão incluídos, que são usados sob a **Licença MIT** [7].
 *   **Fotografia:** As fotos usadas no protótipo são provenientes do **Unsplash** e são usadas sob a Licença Unsplash [17].
 
-***
+---
 
 ## Referências
 
 [1] Título do Projeto: `Prototipo de App Educacional`. Fonte: `curso_project/Curso/index.html`.
+
 [2] Dependência React. Fonte: `curso_project/Curso/package.json`.
+
 [3] Uso de TypeScript. Fonte: Extensões de arquivo `.tsx` e `@types/node` em `curso_project/Curso/package.json`.
+
 [4] Dependência Vite. Fonte: `curso_project/Curso/package.json`.
+
 [5] Dependência Tailwind CSS. Fonte: `curso_project/Curso/package.json` e `curso_project/Curso/src/index.css`.
+
 [6] Dependências Radix UI. Fonte: `curso_project/Curso/package.json`.
+
 [7] Atribuição shadcn/ui. Fonte: `curso_project/Curso/src/Attributions.md`.
+
 [8] Dependência react-hook-form. Fonte: `curso_project/Curso/package.json`.
+
 [9] Dependência Recharts. Fonte: `curso_project/Curso/package.json`.
+
 [10] Dependência embla-carousel-react. Fonte: `curso_project/Curso/package.json`.
+
 [11] Dependência next-themes. Fonte: `curso_project/Curso/package.json`.
+
 [12] Dependência sonner. Fonte: `curso_project/Curso/package.json`.
+
 [13] Dependência lucide-react. Fonte: `curso_project/Curso/package.json`.
+
 [14] Sistema de Progresso e Pontos do Usuário. Fonte: `curso_project/Curso/src/lib/storage.ts`.
+
 [15] Sistema de Conquistas. Fonte: `curso_project/Curso/src/App.tsx`.
+
 [16] Scripts de Desenvolvimento. Fonte: `curso_project/Curso/package.json`.
+
 [17] Atribuição Unsplash. Fonte: `curso_project/Curso/src/Attributions.md`.
